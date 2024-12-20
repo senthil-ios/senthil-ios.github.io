@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download MetersXpress</title>
+    <script>
+        // Redirect logic for unsupported paths
+        const validPaths = ["", "/a", "/detail"]; // Add valid paths here
+        const currentPath = window.location.pathname;
+
+        if (!validPaths.includes(currentPath)) {
+            window.location.href = "https://senthil-ios.github.io/";
+        }
+    </script>
 </head>
 <body>
     <h1>Get MetersXpress</h1>
