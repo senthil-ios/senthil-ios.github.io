@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,5 +11,30 @@
     <a href="https://apps.apple.com/us/app/metersxpress/id1613209919">Open in App Store</a>
     <br>
     <a href="/contact-support">Contact Support</a>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Redirect</title>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+    <script>
+        // The Universal Link that opens the app if installed
+        const universalLink = "https://senthil-ios.github.io/path";
+        // The App Store URL for your app
+        const appStoreUrl = "https://apps.apple.com/us/app/metersxpress/id1613209919";
+
+        // Attempt to open the Universal Link
+        window.location.href = universalLink;
+
+        // Fallback: Redirect to App Store after a delay
+        setTimeout(() => {
+            window.location.href = appStoreUrl;
+        }, 2000); // Adjust the timeout as needed
+    </script>
 </body>
 </html>
