@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Define fallback URL (App Store or another location)
+        const appStoreUrl = "https://apps.apple.com/app/idYOUR_APP_ID";
+
+        // Redirect to the fallback URL after a short delay
+        setTimeout(() => {
+            window.location.href = appStoreUrl;
+        }, 2000); // Adjust the delay as needed (2 seconds here)
+    </script>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected automatically, <a href="https://apps.apple.com/app/idYOUR_APP_ID">click here</a>.</p>
+</body>
+</html>
