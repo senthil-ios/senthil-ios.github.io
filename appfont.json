@@ -7,9 +7,9 @@
          "TeamId":"133",
          "ZaploxEnabled":true,
          "AppleFonts":{
-            "font1":"FigTree-Bold",
-            "font2":"FigTree-SemiBold",
-            "font3":"FigTree-Medium",
+            "font1":"Figtree-Bold",
+            "font2":"Figtree-SemiBold",
+            "font3":"Figtree-Medium",
             "font4":"Roboto-Bold",
             "font5":"Roboto-Regular",       
             "font8":"OpenSans-Bold",
