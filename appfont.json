@@ -1,0 +1,16 @@
+{
+   "Apps":[
+      {
+         "AppId":"304",
+         "AppName":"Casino",
+         "VenueId":"311",
+         "TeamId":"133",
+         "ZaploxEnabled":true,
+         "AppleFonts":{
+            "font1":"FigTree-Bold",
+            "font2":"FigTree-SemiBold",
+            "font3":"FigTree-Medium"
+         }
+      }
+   ]
+}
